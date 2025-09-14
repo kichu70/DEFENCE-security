@@ -1,0 +1,147 @@
+.menuicon {
+  background-color: red;
+  display: none;
+}
+@media (max-width: 1280px) {
+  .nav {
+    margin: 0 20px;
+  }
+  .navContent2 {
+    display: none;
+  }
+  .menuicon {
+    display: flex;
+  }
+  .navContent3 {
+    display: none;
+    background-color: green;
+  }
+  .cntImgs {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .img1,
+  .img5 {
+    display: none;
+  }
+  .cnt3grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #card4 {
+    display: none;
+  }
+}
+@media (max-width: 1180px) {
+  .content1 {
+    gap: 50px;
+  }
+  .cnt2Pera {
+    margin: 20px;
+    width: 80%;
+  }
+  .cnt5-div2 {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    align-items: center;
+  }
+  .cnt5-div2 h1 {
+    width: 75%;
+    margin: auto;
+
+    text-align: center;
+  }
+  .ratingimgdiv {
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+  }
+  .cnt8-pera2 {
+    margin: 0;
+    padding-right: 0;
+  }
+  .footer .section{
+    margin: 0 20px;
+   
+  }
+  .cnt7logos{
+    margin: 0;
+    padding: 70px 0 ;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .content2 {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    align-items: center;
+  }
+  .content2 img {
+    width: 100%;
+    height: 100%;
+  }
+  .cnt8 {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .cnt8-pera2 {
+    width: 80%;
+    align-items: center;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logoimgs{
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .cnt3grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+  #card2 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 779px)  {
+  .EFW{
+    grid-template-columns:repeat(3,1fr);
+
+  }.cntImgs img{
+    width: 100%;
+  }
+  .content1{
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 10px;
+  }
+  .ratingimgdiv{
+    padding: 0;
+  }
+  .cnt4{
+    padding: 10px 60px ;
+  }
+  .ratingimgdiv{
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 40px;
+  }
+  .ftrnav2{
+    display: none;
+  }
+  .ftrnav1{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
