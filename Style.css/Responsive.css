@@ -4,10 +4,9 @@
   width: 30px;
   display: none;
 }
-  .content3 h1{
-
-    width: 100%;
-  }
+.content3 h1 {
+  width: 100%;
+}
 
 @media (max-width: 1280px) {
   .nav {
@@ -88,7 +87,9 @@
   .ii {
     display: none;
   }
-
+  #cnt5blueimg {
+    display: none;
+  }
   .section {
     padding: 10px;
   }
@@ -170,30 +171,28 @@
 #mblBlueLine {
   display: none;
 }
-#mblHeadingPera{
+#mblHeadingPera {
   display: none;
 }
-#mobieOrengLine{
-  display: none;
-}
-
-
-.mobileHeadingImgs{
+#mobieOrengLine {
   display: none;
 }
 
-.mobilCyberDefnce{
+.mobileHeadingImgs {
   display: none;
 }
 
+.mobilCyberDefnce {
+  display: none;
+}
 
+.mblcnt5 {
+  display: none;
+}
 
-
-
-
-
-
-
+.mblcnt5div2 {
+  display: none;
+}
 
 @media (max-width: 576px) {
   .heading {
@@ -225,131 +224,242 @@
     line-height: 38px;
     text-align: center;
   }
-  #mblHeadingPera{
+  #mblHeadingPera {
     display: flex;
-width: 313px;
-font-family: 'Reguler';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #FFFFFF;
-margin: 0 23px 40px;
+    width: 313px;
+    font-family: "Reguler";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 23px 40px;
   }
-  #mobieOrengLine{
+  #mobieOrengLine {
     display: flex;
     position: absolute;
     right: 0;
     bottom: -100px;
     z-index: 1;
-    
   }
-  .cntImgs{
+  .cntImgs {
     display: none;
   }
-  .mobileHeadingImgs{
+  .mobileHeadingImgs {
     display: grid;
     position: relative;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 23px;
     padding-left: 40.5px;
     z-index: 2;
-
   }
-  .mobileHeadingImgs img{
+  .mobileHeadingImgs img {
     width: 100%;
   }
-   .twoimges{
+  .twoimges {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     row-gap: 24px;
-   }
-  .twoimges img{
-    width:124px;
+  }
+  .twoimges img {
+    width: 124px;
     height: 124px;
   }
-  .content1{
+  .content1 {
     padding: 0;
     margin: 171px 0 0;
   }
-  .cnt1Colum1{
+  .cnt1Colum1 {
     padding: 0;
     margin: 0;
   }
-  .cnt1Colum1 h1{
+  .cnt1Colum1 h1 {
     font-size: 75px;
     margin: 0;
   }
-  .details{
+  .details {
     border: none;
-    border-bottom: 2px #01F5E6 solid;
+    border-bottom: 2px #01f5e6 solid;
     border-radius: 0;
     text-align: center;
   }
-  .content4{display: none;}
-  .mobilCyberDefnce{
+  .content4 {
+    display: none;
+  }
+  .mobilCyberDefnce {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
-  .mobilCyberDefnce h1{
-font-family: 'bold';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 36px;
-text-align: center;
-color: #1F2A37;
+  .mobilCyberDefnce h1 {
+    font-family: "bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #1f2a37;
   }
-  .mobilCyberDefnce h2{
-font-family: 'Bold';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
-color: #1F2A37;
-
+  .mobilCyberDefnce h2 {
+    font-family: "Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #1f2a37;
   }
-  .mobilCyberDefnce p{
-width: 290px;
-height: 66px;
-font-family: 'Reguler';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-text-align: center;
-color: #4B5563;
+  .mobilCyberDefnce p {
+    width: 290px;
+    height: 66px;
+    font-family: "Reguler";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #4b5563;
   }
-  .cnt2Pera h1{
-width: 330px;
-font-weight: 700;
-font-size: 28px;
-line-height: 36px;
-text-align: center;
+  .cnt2Pera h1 {
+    width: 330px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
   }
-  .peraDiv p{
-width: 313px;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-display: flex;
-align-items: center;
-color: #4B5563;
+  .peraDiv p {
+    width: 313px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #4b5563;
   }
-  #perabtn1{
+  #perabtn1 {
     width: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  #perabtn2{
+  #perabtn2 {
     width: 100%;
     padding: 0;
     margin: 15px 0;
-    color: #01F5E6;
+    color: #01f5e6;
   }
+  .cnt5-div1,
+  .cnt5-div2 {
+    display: none;
+  }
+  .mblcnt5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mblcnt5 h1 {
+    width: 330px;
+    height: 72px;
+    font-family: "Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #1f2a37;
+    margin: 0 15px 60px;
+  }
+  .mblEFW {
+    row-gap: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mblEFW p {
+    width: 190px;
+    height: 44px;
+    font-family: "Reguler";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #4b5563;
+  }
+
+  .mblcnt5div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 141px 0 0;
+  }
+  .mblcnt5div2 h1 {
+    width: 330px;
+    height: 119px;
+    font-family: "Bold";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #1f2a37;
+    padding: 0 0 50px;
+  }
+  .mblcnt5div2 span {
+    background: linear-gradient(#00ffdd, #00d4ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #card1 {
+    display: none;
+  }
+
+  #card3 img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .info img {
+    padding: 20px;
+    margin: 20px;
+  }
+  .cnt3grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .logoimgs {
+    display: flex;
+    gap: 11px;
+  }
+  #logoimg2 {
+    width: 67px;
+
+    height: 35.3px;
+  }
+  #logoimg3 {
+    width: 89.77px;
+    height: 29.7px;
+  }
+  #logoimg4 {
+    width: 89.77px;
+    height: 27.7px;
+  }
+
+  #logoimg1,
+  #logoimg5,
+  #logoimg6 {
+    display: none;
+  }
+  .cnt5-div3 button{
+    width: 70%;
+  }
+  
 }
