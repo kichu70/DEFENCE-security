@@ -4,6 +4,11 @@
   width: 30px;
   display: none;
 }
+  .content3 h1{
+
+    width: 100%;
+  }
+
 @media (max-width: 1280px) {
   .nav {
     margin: 0 20px;
@@ -177,7 +182,9 @@
   display: none;
 }
 
-
+.mobilCyberDefnce{
+  display: none;
+}
 
 
 
@@ -281,5 +288,68 @@ margin: 0 23px 40px;
     border-radius: 0;
     text-align: center;
   }
-  .cnt4{display: none;}
+  .content4{display: none;}
+  .mobilCyberDefnce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .mobilCyberDefnce h1{
+font-family: 'bold';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+color: #1F2A37;
+  }
+  .mobilCyberDefnce h2{
+font-family: 'Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #1F2A37;
+
+  }
+  .mobilCyberDefnce p{
+width: 290px;
+height: 66px;
+font-family: 'Reguler';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #4B5563;
+  }
+  .cnt2Pera h1{
+width: 330px;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+text-align: center;
+  }
+  .peraDiv p{
+width: 313px;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #4B5563;
+  }
+  #perabtn1{
+    width: 100%;
+    color: #FFFFFF;
+  }
+  #perabtn2{
+    width: 100%;
+    padding: 0;
+    margin: 15px 0;
+    color: #01F5E6;
+  }
 }
