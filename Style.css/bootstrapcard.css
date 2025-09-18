@@ -1,0 +1,32 @@
+#main-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.carousel-indicators {
+  position: static;        
+  margin-top: 40px;      
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+  background-color: #17252a;
+  border: none;
+  width: 50px;
+  height: 5px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #3aafa9;
+}
+.carousel-indicators .active {
+  background-color: #dff5f5;
+}

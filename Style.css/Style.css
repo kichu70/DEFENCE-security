@@ -305,6 +305,7 @@ body {
   border-radius: 8px;
   padding-bottom: 20px;
   animation: slideInRight 0.8s ease-out forwards;
+  width: 255.00009155273438px;
 }
 .card img {
   width: 255px;
@@ -812,7 +813,7 @@ padding-top: 46px;
 
 
 
-
+/* 
 @keyframes slideInRight {
   from {
     transform: translateX(450%);
@@ -859,4 +860,4 @@ padding-top: 46px;
 
 .slide-out-right {
   animation: slideOutRight 0.5s forwards;
-}
+} */

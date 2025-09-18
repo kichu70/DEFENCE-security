@@ -124,7 +124,13 @@
   .cnt3grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  #card2 {
+  .CardOne #card2{
+    display: none;
+  }
+  .CardTwo #card1{
+    display: none;
+  }
+  .cardThree #card3{
     display: none;
   }
 }
@@ -196,6 +202,9 @@
 .mblcnt6 {
   display: none;
 }
+.ftrmbl{
+  display: none;
+}
 
 @media (max-width: 576px) {
   .heading {
@@ -254,11 +263,15 @@
     position: relative;
     grid-template-columns: repeat(2, 1fr);
     gap: 23px;
-    padding-left: 40.5px;
+    
     z-index: 2;
+    width: 312px;
+    margin: 0 auto;
+    
   }
-  .mobileHeadingImgs img {
-    width: 100%;
+    .mainimg img {
+    width: 165px;
+    height: 300px;
   }
   .twoimges {
     display: flex;
@@ -298,6 +311,7 @@
     justify-content: center;
     text-align: center;
   }
+
   .mobilCyberDefnce h1 {
     font-family: "bold";
     font-style: normal;
@@ -419,9 +433,37 @@
     -webkit-text-fill-color: transparent;
   }
 
-  #card1 {
+  #card1 ,#card2 ,#card3 ,#card4{
+    display: block;
+  }
+  .CardOne #card2 {
     display: none;
   }
+  .CardOne #card3 {
+    display: none;
+  }
+  .CardOne #card4 {
+    display: none;
+  }
+  .CardTwo #card1 {
+    display: none;
+  }
+  .CardTwo #card2 {
+    display: none;
+  }
+  .CardTwo #card4{
+    display: none;
+  }
+  .cardThree #card1 {
+    display: none;
+  }
+  .cardThree #card2 {
+    display: none;
+  }
+  .cardThree #card3{
+    display: none;
+  }
+
   .cnt2Clm1 {
     width: 95%;
   }
@@ -543,7 +585,7 @@
     margin: 0;
     padding: 0 10px;
   }
-  .cnt8{
+  .cnt8 {
     padding: 0;
     margin-bottom: 80px;
   }
@@ -551,25 +593,25 @@
     display: none;
   }
   .ftrmbl {
+    display: block;
     background-color: #1f2a37;
   }
-  .mblftrlogo{
+  .mblftrlogo {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 0;
   }
-  .frt-cnt2{
+  .frt-cnt2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
+    grid-template-columns: repeat(2, 1fr);
   }
-  .frt-cnt2 div{
+  .frt-cnt2 div {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .frt-cnt2 div img{
+  .frt-cnt2 div img {
     background-color: #4b5563;
     width: 21px;
     height: 21px;
@@ -577,74 +619,74 @@
     padding: 10px;
     margin-bottom: 11px;
   }
-  .frt-cnt2 p{
-    font-family: 'Reguler';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #FFFFFF;
-align-items: center;
-display: flex;
-gap: 20px;
+  .frt-cnt2 p {
+    font-family: "Reguler";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    gap: 20px;
   }
-  .ftr-maindiv{
+  .ftr-maindiv {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-top: 50px;
     padding-left: 20px;
   }
-  .ftr-maindiv h1{
-font-family: 'Bold';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: #6B7280;
-padding-bottom: 20px;
+  .ftr-maindiv h1 {
+    font-family: "Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6b7280;
+    padding-bottom: 20px;
   }
-  .ftr-maindiv p{
-        font-family: 'Reguler';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #FFFFFF;
-align-items: center;
-display: flex;
-gap: 20px;
+  .ftr-maindiv p {
+    font-family: "Reguler";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    gap: 20px;
   }
-  .ftrlogoimg{
+  .ftrlogoimg {
     display: grid;
-    row-gap:20px;
-    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 60px;
   }
-  .ftr-Cnt-info{
+  .ftr-Cnt-info {
     justify-content: center;
     display: flex;
     gap: 64px;
     margin: 52px 0;
   }
-  .ftr-Cnt-info img{
+  .ftr-Cnt-info img {
     width: 35px;
     height: 35px;
   }
-  .ftr-terms{
+  .ftr-terms {
     display: flex;
     justify-content: center;
     gap: 30px;
   }
-  .ftr-terms p{
-font-family: 'reguler';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: -0.204545px;
-color: #E5E7EB;
-gap: 20px;
-padding-bottom: 20px;
+  .ftr-terms p {
+    font-family: "reguler";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.204545px;
+    color: #e5e7eb;
+    gap: 20px;
+    padding-bottom: 20px;
   }
 }
